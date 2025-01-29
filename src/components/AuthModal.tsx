@@ -69,7 +69,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
         </button>
 
         <h2 className="text-2xl font-bold text-gray-900 mb-6">
-          {isLogin ? 'Login' : 'Create Account'}
+          {isLogin ? 'Login' : 'Create Accoun'}
         </h2>
 
         {error && (
@@ -150,7 +150,7 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           className="mt-4 text-sm text-indigo-600 hover:text-indigo-500"
         >
           {isLogin
-            ? "Don't have an account? Sign up"
+            ? "Don't have an account? Sign up="
             : 'Already have an account? Login'}
         </button>
       </div>

@@ -150,8 +150,8 @@ export default function AuthModal({ isOpen, onClose }: AuthModalProps) {
           className="mt-4 text-sm text-indigo-600 hover:text-indigo-500"
         >
           {isLogin
-            ? "Don't have an account? Sign up="
-            : 'Already have an account? Login'}
+              ? "Não tem uma conta? Cadastre-se"
+              : 'Já tem uma conta? Faça login'}
         </button>
       </div>
     </div>
